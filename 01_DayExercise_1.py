@@ -1,0 +1,21 @@
+
+print(3 + 4) 
+print(3 - 4)  
+print(3 * 4)  
+print(3 / 4)  
+print(3 ** 4) 
+print(3 % 4)  
+print(3 // 4) 
+
+print("Santiago Mendoza")
+print("madre: Paty López")
+print("pais: México")
+print("Helo world")
+
+print(type(10))                  
+print(type(9.8))                
+print(type(3.14))              
+print(type(4-4j))          
+print(type(['Santiago Mendoza']))           
+print(type({'Paty López'})) 
+print(type({'Mexico'}))      
