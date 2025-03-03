@@ -210,3 +210,9 @@ print(7//3 == 2.7)
 print(type('10') == type(10))
 
 print(int(9.8) == 10)
+
+H= float(input('Ingrese sus horas de trabajo'))
+TH= float(input('Ingrese su tarifa por hora'))
+Sa = H*TH
+print('Su salario es de:', Sa)
+
