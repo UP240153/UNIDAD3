@@ -197,3 +197,16 @@ print('jargon' in 'I hope this course is not full of jargon')
 print('There is no ON in both dragon and python')
 
 print(str(float(len('python'))))
+
+nn=(float(input('Ingrese su numero:')))
+ss=float(nn)%2
+if ss == 0: 
+    print('El numero es par')
+else:
+    print('El numero es impar')
+    
+print(7//3 == 2.7)
+
+print(type('10') == type(10))
+
+print(int(9.8) == 10)
