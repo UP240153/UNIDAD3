@@ -163,3 +163,37 @@ area3= float(pi * radio * radio)
 cir= float(2 * pi * radio)
 print('El area del circulo es:', area3)
 print('La circunferencia es:', cir)
+
+X1= float(input('ingrese las coordenadas x del primer punto'))
+X2= float(input('ingrese las coordenadas x del segundo punto'))
+Y1= 2*X1-2
+Y2= 2*X2-2
+m= (Y2-Y1)/(X2-X1)
+print('La pendiente es igual a:',m)
+
+X1_2= float(input('ingrese las coordenadas x del primer punto'))
+X2_2= float(input('ingrese las coordenadas x del segundo punto'))
+Y1_2= float(input('ingrese las coordenadas y del primer punto'))
+Y2_2= float(input('ingrese las coordenadas y del segundo punto'))
+m_2= (Y2_2-Y1_2)/(X2_2-X1_2)
+d= ((X2_2-X1_2)**2)+((Y2_2-Y1_2)**2)**0.5
+print('La pendiente es igual a:',m_2)
+print('La distancia euclidiana entre los dos puntos es:',d)
+
+print('La pendiente del primer vector es:',m)
+print('Mientras que el segundo es:',m_2)
+
+x= float(input('Ingresa el valor de x'))
+y = x**2 + (6*x) + 9
+print('El valor de y es:',y)
+print('y es igual a 0 cuando x es igual a -3')
+
+print(len('python') != len('dragon'))
+
+print('on' in 'python' and 'on' in 'dragon')
+
+print('jargon' in 'I hope this course is not full of jargon')
+
+print('There is no ON in both dragon and python')
+
+print(str(float(len('python'))))
