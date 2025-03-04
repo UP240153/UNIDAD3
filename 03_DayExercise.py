@@ -216,3 +216,12 @@ TH= float(input('Ingrese su tarifa por hora'))
 Sa = H*TH
 print('Su salario es de:', Sa)
 
+Y= float(input('Ingrese los años que ha vivido'))
+S=(float(Y*31536000))
+print('Usted ha vivido:', S, 'segundos')
+
+print('1 1 1 1 1')
+print('2 1 2 4 8')
+print('3 1 3 9 27')
+print('4 1 4 16 64')
+print('5 1 5 25 125')
