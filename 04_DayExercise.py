@@ -79,3 +79,24 @@ print('La variable thirty_days_of_python se vuelbe verdadera')
 DOC=['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
 DAC=' '.join(DOC)
 print(DAC)
+
+XNG='I am enjoying this challenge \nI just wonder what is next'
+print(XNG)
+
+print('Name    \tAge\tCountry \tCity')
+print('Asabeneh\t250\tFinland \tHelsinki')
+
+radius = 10
+area = 3.14 * radius ** 2
+Total= 'The area of a circle with radius %s is %s meters square.'%(radius, area)
+print(Total)
+
+a = 8
+b = 6
+print(f'{a} + {b} = {a +b}')
+print(f'{a} - {b} = {a - b}')
+print(f'{a} * {b} = {a * b}')
+print(f'{a} / {b} = {a / b:.2f}')
+print(f'{a} % {b} = {a % b}')
+print(f'{a} // {b} = {a // b}')
+print(f'{a} ** {b} = {a ** b}')
