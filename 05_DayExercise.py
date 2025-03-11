@@ -18,3 +18,13 @@ First_Company= it_companies[0]
 Second_Company= it_companies[3] 
 Third_Company= it_companies[6]
 print(First_Company+coma+Second_Company+coma+Third_Company)
+
+it_companies.remove('Oracle')
+it_companies.insert(5,'Shockwave')
+print(it_companies)
+
+it_companies.insert(1,'IT')
+print(it_companies)
+
+it_companies.insert(4,'IT2')
+print(it_companies)
