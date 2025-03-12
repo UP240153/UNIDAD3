@@ -28,3 +28,8 @@ print(it_companies)
 
 it_companies.insert(4,'IT2')
 print(it_companies)
+
+it_companies.remove('Google')
+it_companies.insert(2,'GOOGLE')
+print(it_companies)
+
