@@ -23,7 +23,6 @@ productos_animales = ("leche", "huevo", "queso", "mantequilla", "yogur")
 
 comida_tp = frutas + vegetales + productos_animales
 
-# Imprimiendo el resultado
 print(comida_tp)
 print(tuple(comida_tp))
 
@@ -38,8 +37,7 @@ print(primeros_tres)
 ultimos_tres=(comida_tp[12:])
 print(ultimos_tres)
 
-comida_tp=0
-print(comida_tp)
+del(comida_tp)
 print(comida_it)
 
 paises_nordicos = ('Dinamarca', 'Finlandia', 'Islandia', 'Noruega', 'Suecia')
