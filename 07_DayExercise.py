@@ -32,3 +32,9 @@ print(len(age),len(ages2))
 print('La lista es mas larga que el conjunto')
 
 print('Cadena:Es un conjunto de caracteres que no se pueden modificar. \nLista: Es una colección ordenada y modificable de elementos. \nTupla: Es como una lista, pero no se puede modificar. \nConjunto: Es una colección desordenada de elementos únicos.')
+
+oracion = "I am a teacher and I love to inspire and teach people."
+palabras = oracion.replace(".", "").split()
+palabras_unicas = set(palabras)
+num_palabras_unicas = len(palabras_unicas)
+print("Número de palabras únicas:", num_palabras_unicas)
