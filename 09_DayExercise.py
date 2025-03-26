@@ -45,8 +45,7 @@ if month in ["Septiembre", "Octubre", "Noviembre"]:
 if month in ["Diciembre", "Enero", "Febrero"]:
     print("Es invierno")
 if month in ["Marso", "Abril", "Mayo"]:
-    print("Es primavera")
-
+    print("Es primavera")   
 else: print("Summer")
 
 fruits = ['banana', 'naranja', 'mango', 'limon']
@@ -75,9 +74,9 @@ if person['abilidades']:
     elif ['Node', 'MongoDB', 'React'] == person['abilidades']:
         print('Full Stack Developer')
     else:
-        print("Unknown Title")
+        print("titulo desconocido")
 
-if person['is_marred']:
-    print(person['first_name'], person['last_name'], "lives in", person['country'], ". He is married")
+if person['casado']:
+    print(person['Nombre'], person['Apellido'], "vive en", person['paiz'], ". Esta casado")
 else:
-    print(person['first_name'], person['last_name'], "lives in", person['country'], ". He is not married")
+    print(person['Nombre'], person['Apellido'], "vive en", person['paiz'], ". Esta soltero")
