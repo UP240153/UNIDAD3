@@ -13,7 +13,6 @@ elif age > my_age:
 else:
     print("yo tengo", my_age - age, "años mas que tu")
 
-# 3
 a = int(input("Introdusca su numeror: "))
 b = int(input("Introdusca su numeror: "))
 if a > b:
