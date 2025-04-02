@@ -1,0 +1,28 @@
+numeros = [-4, -3, -2, -1, 0, 2, 4, 6]
+negativos_o_cero = [i for i in numeros if i <= 0]
+print(negativos_o_cero)  # [-4, -3, -2, -1, 0]
+
+lista_de_listas = [[[1, 2, 3]], [[4, 5, 6]], [[7, 8, 9]]]
+lista_aplanada = [num for sublista1 in lista_de_listas for sublista2 in sublista1 for num in sublista2]
+print(lista_aplanada)  
+
+lista_de_tuplas = [(i, *[i**j for j in range(7)]) for i in range(11)]
+print(lista_de_tuplas)
+
+paises = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', 'Oslo')]]
+paises_transformados = [[pais.upper(), pais[:3].upper(), ciudad.upper()] for sublista in paises for pais, ciudad in sublista]
+print(paises_transformados)
+
+paises_dicts = [{'country': pais.upper(), 'city': ciudad.upper()} for sublista in paises for pais, ciudad in sublista]
+print(paises_dicts)
+
+nombres = [[('Asabeneh', 'Yetayeh')], [('David', 'Smith')], [('Donald', 'Trump')], [('Bill', 'Gates')]]
+nombres_concatenados = [f"{primero} {segundo}" for sublista in nombres for primero, segundo in sublista]
+print(nombres_concatenados)
+
+pendiente = lambda x1, y1, x2, y2: (y2 - y1) / (x2 - x1) if x2 - x1 != 0 else None
+intercepto = lambda x, y, m: y - m * x if m is not None else None
+
+m = pendiente(1, 2, 3, 4)
+b = intercepto(1, 2, m)
+print(f"Pendiente: {m}, Intercepto: {b}")
